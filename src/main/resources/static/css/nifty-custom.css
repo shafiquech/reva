@@ -1,0 +1,305 @@
+/*! ========================================================================
+* NIFTY ADMIN TEMPLATE V2.9
+* -------------------------------------------------------------------------
+*  Custom :
+* =========================================================================
+*
+*
+*
+* Custom :
+* ===================================================================================================
+* DON'T EDIT ANY CODE HERE, JUST LEAVE IT.
+*
+* You may edit the default color scheme.
+* You may change the variable value inside the _variables.LESS file and re-compiling using this file.
+*
+* If you make changes directly in the CSS and/ or LESS-files from Nifty,
+* it will be hard to update if we release an update.
+*
+* So we would recommend to create a new CSS/ LESS-file for this purpose.
+*
+*/
+.brand-icon{
+
+    width: 30px!important;
+    height: 30px!important;
+    margin-top: 16px;
+    margin-left: 12px;
+}
+.pre-tagged{
+    background:#1BD62B!important;
+}
+.tagged{
+    background:#5D35C4!important;
+}
+.received{
+    background:#DDE31E!important;
+}
+
+.diagonostic{
+    background:#B09230!important;
+}
+.wait-service{
+    background:#1B5766!important;
+}
+.prog{
+    background:#BFD454!important;
+}
+.finished{
+    background:#2148E2!important;
+}
+.delayed{
+    background:#F56AEA	!important;
+}
+
+.washed{
+    background:#601919	!important;
+}
+
+.test-drive{
+    background:#77DBBF	!important;
+}
+
+.delivered-transpnader{
+    background:#D13838	!important;
+}
+.delivered{
+    background:#3AE0E9	!important;
+}
+path{stroke:transparent!important;}
+
+#content-container::before {
+    background-color:#1d1e1e!important;
+    height: 115px!important;
+}
+#page-head h2{
+    /*color:#282a2c;*/
+
+}
+#page-content {
+    padding: 30px 20px 20px 20px;
+}
+#mainnav-menu .active:not(.active-sub) > a,
+#mainnav li ul,
+#mainnav {
+    height: 100%;
+    background-color:#282a2c;
+    color: #eef1f5;
+}
+.mainnav-profile .profile-wrap {
+    padding: 30px 20px 12px;
+    background-color:#282a2c;
+}
+#mainnav .list-divider {
+    border-bottom: 1px dotted  #eef1f5;}
+.list-header{
+    color: #eef1f5!important;
+}
+.mainnav-widget,
+.mainnav-profile .mnp-desc,
+.mainnav-profile .mnp-name ,
+.mainnav-profile {
+    color: #eef1f5;
+}
+#container.mainnav-lg .brand-title {
+    color: #fff;
+    background-color:#282a2c;
+}
+#mainnav-profile{
+    border-bottom: 1px dotted #ccc;
+}
+
+
+#mainnav li.active-sub ul li a,
+#mainnav li a{
+ color: #fff!important;
+}
+#mainnav li.active-sub ul li a:hover,
+#mainnav li a:hover{
+    background-color:#2d3742;
+    color: #fff!important;
+}
+#demo-set-btn{
+    display:none;
+}
+.highcharts-pie{
+    margin-bottom: 25px;
+}
+.jcarousal-l{
+    height:168px;
+    background-color:#282a2c;
+    color:#fff;
+}
+#container.mainnav-lg .brand-title,
+#navbar-container {
+    background-color: #1d1e1e!important;
+    /*text-align: center;*/
+}
+.owl-item{
+    height:130px;
+    padding:10px 2px;
+    color:#fff;
+    border-radius: 5px;
+}
+.owl-item ul{
+    width: 100%;
+    padding: 0;
+}
+.owl-item li{
+    list-style-type: none;
+}
+.loc-name{
+    padding:5px 2px;
+    color:#f0f0f0;
+    text-align:center;
+    border-bottom:1px solid #f0f0f0;
+}
+.panel-heading{
+
+    border-bottom:1px solid #f0f0f0;
+}
+.panel-heading, .panel-heading a {
+    color: #3f3535;
+}
+div.vehicles-in-loc{
+    overflow-y:auto!important;
+    height: 145px;
+}
+.vehicles-in-loc ul{
+    padding:5px;
+    margin: 0;
+}
+.vehicles-in-loc ul li{
+    list-style: none;
+}
+
+s
+.vehicles-in-loc ul{
+     padding: 5px;
+    margin: 0;
+    overflow-y: auto;
+    height: 120px;
+}
+.vehicles-in-loc ul li{
+    list-style: none;
+    color:#fff;
+}
+
+#location-box-1{
+    border-radius: 5px;
+    background-color: #178ee9!important;
+    height:180px;
+}
+#location-box-2{
+    border-radius: 5px;
+    background-color: #f8ac59!important;
+    height:180px;
+}
+#location-box-3{
+    border-radius: 5px;
+    background-color: #23c6c8!important;
+    height:180px;
+}
+#location-box-4{
+    border-radius: 5px;
+    background-color: #ed5565!important;
+    height:180px;
+}
+
+#location-box-5{
+    border-radius: 5px;
+    background-color: #178ee9!important;
+    height:180px;
+}
+#location-box-6{
+    border-radius: 5px;
+    background-color: #ed5565!important;
+    height:180px;
+}
+#location-box-7{
+    border-radius: 5px;
+    background-color: #ed5565!important;
+    height:180px;
+}
+#location-box-8{
+    border-radius: 5px;
+    background-color: #178ee9!important;
+    height:180px;
+}
+
+
+
+text.highcharts-title tspan{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #4d627b;
+    font-size: 13px;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+div[id*="location-box-"] {
+    margin-left:15px;
+    margin-bottom:15px;
+    width:18.25%;
+    float:left;
+    /*overflow-y:    scroll;;*/
+}
+
+
+div[id*="location-box-"]::-webkit-scrollbar {
+    width: .2em;
+}
+
+div[id*="location-box-"]::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+div[id*="location-box-"]::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+.vehicle-list{color:white; padding:3px 10px; font-weight: bold; cursor: pointer;}
+.vehicle-list:hover{color:black;  padding:3px 10px; font-weight: bold; cursor: pointer; background-color: white;}
+
+.status-color-box{
+    width:10px;height:10px;display:block;float:left;clear:left;margin:5px 5px;
+}
+#mainnav-container{
+    position:fixed;
+}
+.status-icon{
+    width:50px;
+}

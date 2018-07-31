@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head th:replace="fragments/header :: head"></head>
+<body>
+	<div id="container"
+		class="effect aside-float aside-bright mainnav-out slide">
+		<div id="topbar" th:replace="fragments/topbar :: topbar"></div>
+		<div class="boxed">
+			<!--CONTENT CONTAINER-->
+			<!--===================================================-->
+			<div id="content-container">
+				<div id="topheading" th:replace="fragments/topheading :: topheading"></div>
+				<div id="page-content" layout:fragment="content"></div>
+			</div>
+			<div id="asider" th:replace="fragments/sidebar :: asider"></div>
+			<div id="leftaside" th:replace="fragments/leftaside :: leftaside"></div>
+		</div>
+		<div th:replace="fragments/footer :: footer"></div>
+	</div>
+
+	<!--JAVASCRIPT-->
+	<!--=================================================-->
+
+	<!--jQuery [ REQUIRED ]-->
+	<script src="js/jquery.min.js"></script>
+
+
+	<!--BootstrapJS [ RECOMMENDED ]-->
+	<script src="js/bootstrap.min.js"></script>
+
+
+	<!--NiftyJS [ RECOMMENDED ]-->
+	<script src="js/nifty.min.js"></script>
+
+
+	<!--=================================================-->
+
+	<!--Background Image [ DEMONSTRATION ]-->
+	<script src="js/demo/bg-images.js"></script>
+</body>
+</html>

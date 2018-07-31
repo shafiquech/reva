@@ -1,0 +1,14 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorator="layouts/dashboard">
+<body>
+	<div id="page-content" layout:fragment="content">
+		<body>
+			Dear
+			<strong>${user}</strong>, Welcome to Home Page.
+			<a href="<c:url value=" /logout" />">Logout
+			</a>
+		</body>
+	</div>
+</body>
+</html>
